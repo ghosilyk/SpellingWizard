@@ -17,6 +17,7 @@
 		ADC9F37921239FBF00306C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC9F37721239FBF00306C6A /* LaunchScreen.storyboard */; };
 		ADC9F38421239FC000306C6A /* SpellingWizardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC9F38321239FC000306C6A /* SpellingWizardTests.swift */; };
 		ADC9F38F21239FC000306C6A /* SpellingWizardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC9F38E21239FC000306C6A /* SpellingWizardUITests.swift */; };
+		ADC9F39E2124F27300306C6A /* WizardOfOz.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = ADC9F3A02124F27300306C6A /* WizardOfOz.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		ADC9F38A21239FC000306C6A /* SpellingWizardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellingWizardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC9F38E21239FC000306C6A /* SpellingWizardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingWizardUITests.swift; sourceTree = "<group>"; };
 		ADC9F39021239FC000306C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC9F39F2124F27300306C6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/WizardOfOz.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				ADC9F37021239FBE00306C6A /* GameViewController.swift */,
 				ADC9F37221239FBE00306C6A /* Main.storyboard */,
 				ADC9F37521239FBF00306C6A /* Assets.xcassets */,
+				ADC9F3A02124F27300306C6A /* WizardOfOz.stringsdict */,
 				ADC9F37721239FBF00306C6A /* LaunchScreen.storyboard */,
 				ADC9F37A21239FBF00306C6A /* Info.plist */,
 			);
@@ -243,6 +246,7 @@
 				ADC9F37621239FBF00306C6A /* Assets.xcassets in Resources */,
 				ADC9F37921239FBF00306C6A /* LaunchScreen.storyboard in Resources */,
 				ADC9F36D21239FBE00306C6A /* Actions.sks in Resources */,
+				ADC9F39E2124F27300306C6A /* WizardOfOz.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +323,15 @@
 				ADC9F37821239FBF00306C6A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ADC9F3A02124F27300306C6A /* WizardOfOz.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC9F39F2124F27300306C6A /* en */,
+			);
+			name = WizardOfOz.stringsdict;
+			path = Assets.xcassets;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
