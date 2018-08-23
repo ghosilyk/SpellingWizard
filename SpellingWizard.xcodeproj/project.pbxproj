@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD9C40C0212E2F8F00D52364 /* OzText.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD9C40BE212E2F8F00D52364 /* OzText.xcdatamodeld */; };
 		ADC9F36921239FBE00306C6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC9F36821239FBE00306C6A /* AppDelegate.swift */; };
 		ADC9F36B21239FBE00306C6A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ADC9F36A21239FBE00306C6A /* GameScene.sks */; };
 		ADC9F36D21239FBE00306C6A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ADC9F36C21239FBE00306C6A /* Actions.sks */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD9C40BF212E2F8F00D52364 /* OzText.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OzText.xcdatamodel; sourceTree = "<group>"; };
 		ADC9F36521239FBE00306C6A /* SpellingWizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellingWizard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC9F36821239FBE00306C6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADC9F36A21239FBE00306C6A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				ADC9F37021239FBE00306C6A /* GameViewController.swift */,
 				ADC9F37221239FBE00306C6A /* Main.storyboard */,
 				ADC9F37521239FBF00306C6A /* Assets.xcassets */,
+				AD9C40BE212E2F8F00D52364 /* OzText.xcdatamodeld */,
 				ADC9F3A02124F27300306C6A /* WizardOfOz.stringsdict */,
 				ADC9F37721239FBF00306C6A /* LaunchScreen.storyboard */,
 				ADC9F37A21239FBF00306C6A /* Info.plist */,
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADC9F36F21239FBE00306C6A /* GameScene.swift in Sources */,
+				AD9C40C0212E2F8F00D52364 /* OzText.xcdatamodeld in Sources */,
 				ADC9F37121239FBE00306C6A /* GameViewController.swift in Sources */,
 				ADC9F36921239FBE00306C6A /* AppDelegate.swift in Sources */,
 			);
@@ -609,6 +613,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD9C40BE212E2F8F00D52364 /* OzText.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD9C40BF212E2F8F00D52364 /* OzText.xcdatamodel */,
+			);
+			currentVersion = AD9C40BF212E2F8F00D52364 /* OzText.xcdatamodel */;
+			path = OzText.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ADC9F35D21239FBE00306C6A /* Project object */;
 }
